@@ -32,12 +32,12 @@ Diagram of FileFtpMicroservice:
 		subgraph KafkaListener
 			id7[CreateFile]
 			id8[CreateDir]
-			id9[StreamFile]
-			id10[DownloadFile]
-			id11[DownloadZipCompressedFile]
 			id15[DeleteFile]
 			id16[DeleteDir]
 		end
+			id9[StreamFile]
+			id10[DownloadFile]
+			id11[DownloadZipCompressedFile]
 	end
 	id12[Client]
 	id13[LoginAndRegister]
